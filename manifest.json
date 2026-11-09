@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-gtasks",
+	"name": "Google Tasks Sync",
+	"version": "1.0.0",
+	"minAppVersion": "1.5.0",
+	"description": "Synchronizes Markdown #task items to Google Tasks using the Google Tasks REST API (v1).",
+	"author": "nicoquinta",
+	"authorUrl": "",
+	"isDesktopOnly": true
+}

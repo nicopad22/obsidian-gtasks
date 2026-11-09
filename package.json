@@ -1,0 +1,28 @@
+{
+	"name": "obsidian-gtasks",
+	"version": "1.0.0",
+	"description": "Synchronizes Markdown tasks to Google Tasks using the Google Tasks REST API (v1).",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"test": "node --import tsx --test parser.test.ts"
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"google-tasks",
+		"tasks"
+	],
+	"author": "nicoquinta",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"builtin-modules": "^3.3.0",
+		"esbuild": "0.21.5",
+		"obsidian": "latest",
+		"tslib": "2.6.2",
+		"tsx": "^4.19.0",
+		"typescript": "5.4.5"
+	}
+}
